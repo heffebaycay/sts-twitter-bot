@@ -129,13 +129,14 @@ public class RSSFeedParser {
     }
 
     private String getCharacterData(XMLEventReader eventReader) throws XMLStreamException {
-        String result = "";
-        XMLEvent event = eventReader.nextEvent();
-        if (event instanceof Characters) {
-            result = event.asCharacters().getData();
+        StringBuilder builder = new StringBuilder();
+
+        while(eventReader.peek() instanceof Characters) {
+            XMLEvent event = eventReader.nextEvent();
+            builder.append(event.asCharacters().getData());
         }
 
-        return result;
+        return builder.toString();
     }
 
     private LocalDateTime getLocalDateTimeData(XMLEventReader eventReader) throws XMLStreamException {
