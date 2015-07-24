@@ -65,6 +65,10 @@
             <string>games/dota2/web_english.txt</string>
             <string>Dota 2 Web</string>
         </entry>
+        <entry>
+            <string>games/compendia/ti5_english.txt</string>
+            <string>Compendia TI5</string>
+        </entry>
 
         <!-- Half-Life -->
         <entry>
@@ -245,6 +249,10 @@
             <string>games/tf2/tf_english.txt</string>
             <string>TF2</string>
         </entry>
+        <entry>
+            <string>games/tf2/tf_quests_english.txt</string>
+            <string>TF2 Quests</string>
+        </entry>
 
         <!-- Steam stuff -->
         <entry>
@@ -286,6 +294,30 @@
         <entry>
             <string>steam/vgui_english.txt</string>
             <string>Steam VGUI</string>
+        </entry>
+        <entry>
+            <string>steam/shared_english.txt</string>
+            <string>Steam Shared</string>
+        </entry>
+        <entry>
+            <string>steam/help_english.txt</string>
+            <string>Steam Help</string>
+        </entry>
+        <entry>
+            <string>steam/recovery_english.txt</string>
+            <string>Steam Recovery</string>
+        </entry>
+        <entry>
+            <string>steam/steamlink_english.txt</string>
+            <string>Steam Link</string>
+        </entry>
+        <entry>
+            <string>steam/tenfoot_english.txt</string>
+            <string>Big Picture</string>
+        </entry>
+        <entry>
+            <string>steam/appmgmt_english.txt</string>
+            <string>App Mgt</string>
         </entry>
 
         <!-- Mobile app -->
