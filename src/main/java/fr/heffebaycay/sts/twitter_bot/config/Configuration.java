@@ -1,26 +1,30 @@
 package fr.heffebaycay.sts.twitter_bot.config;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import fr.heffebaycay.sts.twitter_bot.util.Constants;
+import org.simpleframework.xml.Element;
+import org.simpleframework.xml.Root;
+import org.simpleframework.xml.Serializer;
+import org.simpleframework.xml.core.Persister;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.File;
-import java.io.IOException;
 
-
+@Root
 public class Configuration {
 
     private static final Logger logger = LoggerFactory.getLogger(Configuration.class);
 
     public static Configuration INSTANCE;
 
+    @Element(required = false)
     public String accessToken;
+    @Element(required = false)
     public String accessSecret;
+    @Element(required = false)
     public String consumerToken;
+    @Element(required = false)
     public String consumerSecret;
-
 
     private Configuration() {
 
@@ -40,11 +44,13 @@ public class Configuration {
     }
 
     public static void load() {
-        ObjectMapper xmlMapper = new XmlMapper();
+        Serializer serializer = new Persister();
+
+        File configFile = new File(Constants.CONFIG_FILE);
 
         try {
-            Configuration.INSTANCE = xmlMapper.readValue(new File(Constants.CONFIG_FILE), Configuration.class);
-        } catch (IOException e) {
+            Configuration.INSTANCE = serializer.read(Configuration.class, configFile);
+        } catch (Exception e) {
             logger.error("Failed to deserialize configuration: {}", e);
             throw new RuntimeException(e);
         }
@@ -52,14 +58,17 @@ public class Configuration {
     }
 
     public static void save() {
-        ObjectMapper xmlMapper = new XmlMapper();
+        Serializer serializer = new Persister();
+
+        File configFile = new File(Constants.CONFIG_FILE);
 
         try {
-            xmlMapper.writeValue(new File(Constants.CONFIG_FILE), Configuration.INSTANCE);
-        } catch (IOException e) {
+            serializer.write(Configuration.INSTANCE, configFile);
+        } catch (Exception e) {
             logger.error("Failed to serialize configuration: {}", e);
             throw new RuntimeException(e);
         }
+
     }
 
 }

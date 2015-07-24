@@ -17,6 +17,7 @@ public class TwitterBotCLI {
 
         try {
             Class.forName("fr.heffebaycay.sts.twitter_bot.config.Configuration");
+            Class.forName("fr.heffebaycay.sts.twitter_bot.config.Localization");
         } catch (ClassNotFoundException e) {
             logger.error("Failed to find Configuration class: {}", e);
         }

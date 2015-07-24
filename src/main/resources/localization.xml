@@ -1,0 +1,340 @@
+<localization>
+   <aliases class="java.util.HashMap">
+      <!-- Alien Swarm -->
+      <entry>
+         <string>games/alienswarm/closecaption_english.txt</string>
+         <string>ASW cc</string>
+      </entry>
+      <entry>
+         <string>games/alienswarm/basemodui_english.txt</string>
+         <string>ASW BUI</string>
+      </entry>
+      <entry>
+         <string>games/alienswarm/gameui_english.txt</string>
+         <string>ASW GameUI</string>
+      </entry>
+      <entry>
+         <string>games/alienswarm/hl2_english.txt</string>
+         <string>ASW HL2</string>
+      </entry>
+      <entry>
+         <string>games/alienswarm/swarm_english.txt</string>
+         <string>ASW</string>
+      </entry>
+
+      <!-- Counter-Strike: Global Offensive -->
+      <entry>
+         <string>games/csgo/blog_english.txt</string>
+         <string>CS:GO Blog</string>
+      </entry>
+      <entry>
+         <string>games/csgo/sfui_english.txt</string>
+         <string>CS:GO</string>
+      </entry>
+      <entry>
+         <string>games/csgo/csgo_english.txt</string>
+         <string>CS:GO</string>
+      </entry>
+
+      <!-- Counter-Strike: Source -->
+      <entry>
+         <string>games/cstrike/cstrike_english.txt</string>
+         <string>CSS</string>
+      </entry>
+      <entry>
+         <string>games/cstrike/gameui_english.txt</string>
+         <string>CSS GameUI</string>
+      </entry>
+
+      <!-- Day of Defeat: Source -->
+      <entry>
+         <string>games/dod/dod_english.txt</string>
+         <string>DOD</string>
+      </entry>
+
+      <!-- Dota 2 -->
+      <entry>
+         <string>games/dota2/dota_english.txt</string>
+         <string>Dota 2</string>
+      </entry>
+      <entry>
+         <string>games/dota2/items_english.txt</string>
+         <string>Dota 2 Items</string>
+      </entry>
+      <entry>
+         <string>games/dota2/web_english.txt</string>
+         <string>Dota 2 Web</string>
+      </entry>
+
+      <!-- Half-Life -->
+      <entry>
+         <string>games/hl1/hl1_english.txt</string>
+         <string>HL</string>
+      </entry>
+
+      <!-- Half-Life 2: Episode 2 -->
+      <entry>
+         <string>games/hl2/ep2/closecaption_english.txt</string>
+         <string>HL2 EP2 cc</string>
+      </entry>
+      <entry>
+         <string>games/hl2/ep2/ep2_english.txt</string>
+         <string>HL2 EP2</string>
+      </entry>
+
+      <!-- Half-Life 2: Episode 1 -->
+      <entry>
+         <string>games/hl2/episodic/closecaption_english.txt</string>
+         <string>HL2 EP1 cc</string>
+      </entry>
+      <entry>
+         <string>games/hl2/episodic/episodic_english.txt</string>
+         <string>HL2 EP1</string>
+      </entry>
+
+      <!-- Half-Life 2 -->
+      <entry>
+         <string>games/hl2/halflife2/chat_english.txt</string>
+         <string>HL2 Chat</string>
+      </entry>
+      <entry>
+         <string>games/hl2/halflife2/closecaption_english.txt</string>
+         <string>HL2 cc</string>
+      </entry>
+      <entry>
+         <string>games/hl2/halflife2/gameui_english.txt</string>
+         <string>HL2 GUI</string>
+      </entry>
+      <entry>
+         <string>games/hl2/halflife2/hl2_english.txt</string>
+         <string>HL2</string>
+      </entry>
+      <entry>
+         <string>games/hl2/halflife2/replay_english.txt</string>
+         <string>HL2 Replay</string>
+      </entry>
+      <entry>
+         <string>games/hl2/halflife2/youtube_english.txt</string>
+         <string>HL2 YouTube</string>
+      </entry>
+
+      <!-- Half-Life 2: Lost Coast -->
+      <entry>
+         <string>games/hl2/lc/lostcoast_english.txt</string>
+         <string>HL2 LC</string>
+      </entry>
+
+      <!-- Half-Life 2: MP -->
+      <entry>
+         <string>games/hl2/mp/hl2mp_english.txt</string>
+         <string>HL2 MP</string>
+      </entry>
+
+      <!-- Left 4 Dead -->
+      <entry>
+         <string>games/left4dead/chat_english.txt</string>
+         <string>L4D Chat</string>
+      </entry>
+      <entry>
+         <string>games/left4dead/closecaption_english.txt</string>
+         <string>L4D cc</string>
+      </entry>
+      <entry>
+         <string>games/left4dead/gameui_english.txt</string>
+         <string>L4D GameUI</string>
+      </entry>
+      <entry>
+         <string>games/left4dead/l4d360ui_english.txt</string>
+         <string>L4D 360</string>
+      </entry>
+      <entry>
+         <string>games/left4dead/left4deaddlc2_english.txt</string>
+         <string>L4D DLC</string>
+      </entry>
+      <entry>
+         <string>games/left4dead/left4dead_english.txt</string>
+         <string>L4D</string>
+      </entry>
+
+      <!-- Left 4 Dead 2 -->
+      <entry>
+         <string>games/left4dead2/chat_english.txt</string>
+         <string>L4D2 chat</string>
+      </entry>
+      <entry>
+         <string>games/left4dead2/closecaption_english.txt</string>
+         <string>L4D2 cc</string>
+      </entry>
+      <entry>
+         <string>games/left4dead2/gameui_english.txt</string>
+         <string>L4D2 GameUI</string>
+      </entry>
+      <entry>
+         <string>games/left4dead2/l4d360ui_english.txt</string>
+         <string>L4D2 360</string>
+      </entry>
+      <entry>
+         <string>games/left4dead2/left4dead2_english.txt</string>
+         <string>L4D2</string>
+      </entry>
+      <entry>
+         <string>games/left4dead2/subtitles_english.txt</string>
+         <string>L4D2 sub</string>
+      </entry>
+      <entry>
+         <string>games/left4dead2_dlc1/subtitles_english.txt</string>
+         <string>L4D2 DLC1</string>
+      </entry>
+      <entry>
+         <string>games/left4dead2_dlc2/l4d360ui_tu_english.txt</string>
+         <string>L4D2 DLC2</string>
+      </entry>
+
+      <!-- Portal -->
+      <entry>
+         <string>games/portal/closecaption_english.txt</string>
+         <string>Portal cc</string>
+      </entry>
+      <entry>
+         <string>games/portal/portal_english.txt</string>
+         <string>Portal</string>
+      </entry>
+
+      <!-- Portal 2 -->
+      <entry>
+         <string>games/portal2/basemodui_english.txt</string>
+         <string>Portal 2 BUI</string>
+      </entry>
+      <entry>
+         <string>games/portal2/chat_english.txt</string>
+         <string>Portal 2 chat</string>
+      </entry>
+      <entry>
+         <string>games/portal2/closecaption_english.txt</string>
+         <string>Portal 2 cc</string>
+      </entry>
+      <entry>
+         <string>games/portal2/gameui_english.txt</string>
+         <string>Portal 2 GUI</string>
+      </entry>
+      <entry>
+         <string>games/portal2/portal2_english.txt</string>
+         <string>Portal 2</string>
+      </entry>
+      <entry>
+         <string>games/portal2/subtitles_english.txt</string>
+         <string>Portal 2 sub</string>
+      </entry>
+
+      <!-- PVK 2 -->
+      <entry>
+         <string>games/pvkii/pvkii_english.txt</string>
+         <string>PVK II</string>
+      </entry>
+
+      <!-- Team Fortress 2 -->
+      <entry>
+         <string>games/tf2/closecaption_english.txt</string>
+         <string>TF2 cc</string>
+      </entry>
+      <entry>
+         <string>games/tf2/mtmedic_english.txt</string>
+         <string>TF2 MtM</string>
+      </entry>
+      <entry>
+         <string>games/tf2/tf_english.txt</string>
+         <string>TF2</string>
+      </entry>
+
+      <!-- Steam stuff -->
+      <entry>
+         <string>steam/community_english.txt</string>
+         <string>Steam Community</string>
+      </entry>
+      <entry>
+         <string>steam/overlay_english.txt</string>
+         <string>Steam Overlay</string>
+      </entry>
+      <entry>
+         <string>steam/platform_english.txt</string>
+         <string>Steam Platform</string>
+      </entry>
+      <entry>
+         <string>steam/serverbrowser_english.txt</string>
+         <string>ServerBrowser</string>
+      </entry>
+      <entry>
+         <string>steam/steamui_english.txt</string>
+         <string>Steam UI</string>
+      </entry>
+      <entry>
+         <string>steam/steamui_postlogon_english.txt</string>
+         <string>Steam UI PostLogon</string>
+      </entry>
+      <entry>
+         <string>steam/supportui_english.txt</string>
+         <string>Support UI</string>
+      </entry>
+      <entry>
+         <string>steam/support_faq_english.txt</string>
+         <string>Support FAQ</string>
+      </entry>
+      <entry>
+         <string>steam/trackerui_english.txt</string>
+         <string>Steam TrackerUI</string>
+      </entry>
+      <entry>
+         <string>steam/vgui_english.txt</string>
+         <string>Steam VGUI</string>
+      </entry>
+
+      <!-- Mobile app -->
+      <entry>
+         <string>steam/mobile/android_english.txt</string>
+         <string>Android App</string>
+      </entry>
+      <entry>
+         <string>steam/mobile/ios_english.txt</string>
+         <string>iOS App</string>
+      </entry>
+
+      <!-- Store stuff -->
+      <entry>
+         <string>steam/store/storefront_english_apps.txt</string>
+         <string>Store Apps</string>
+      </entry>
+      <entry>
+         <string>steam/store/storefront_english_main.txt</string>
+         <string>Store Main</string>
+      </entry>
+
+      <!-- Uber -->
+      <entry>
+         <string>UBER/launch_english.txt</string>
+         <string>Uber Launch</string>
+      </entry>
+      <entry>
+         <string>UBER/gfxui_english.txt</string>
+         <string>Uber GFXUI</string>
+      </entry>
+      <entry>
+         <string>UBER/mnccore_english.txt</string>
+         <string>Uber MNC Core</string>
+      </entry>
+      <entry>
+         <string>UBER/mncgameui_english.txt</string>
+         <string>Uber MNC GameUI</string>
+      </entry>
+      <entry>
+         <string>UBER/mncgame_english.txt</string>
+         <string>Uber MNC Game</string>
+      </entry>
+      <entry>
+         <string>UBER/mncstore_english.txt</string>
+         <string>Uber MNC Store</string>
+      </entry>
+
+
+
+   </aliases>
+</localization>
