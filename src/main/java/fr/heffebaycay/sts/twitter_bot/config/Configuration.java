@@ -25,6 +25,8 @@ public class Configuration {
     public String consumerToken;
     @Element(required = false)
     public String consumerSecret;
+    @Element(required = false)
+    public boolean dryRun;
 
     private Configuration() {
 
