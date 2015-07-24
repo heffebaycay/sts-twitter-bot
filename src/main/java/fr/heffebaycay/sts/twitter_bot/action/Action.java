@@ -1,4 +1,4 @@
-package fr.heffebaycay.sts.twitter_bot.model;
+package fr.heffebaycay.sts.twitter_bot.action;
 
 public interface Action {
 

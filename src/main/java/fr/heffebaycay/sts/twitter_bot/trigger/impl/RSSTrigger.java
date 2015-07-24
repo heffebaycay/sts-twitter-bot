@@ -1,7 +1,11 @@
-package fr.heffebaycay.sts.twitter_bot.model.impl;
+package fr.heffebaycay.sts.twitter_bot.trigger.impl;
 
+import fr.heffebaycay.sts.twitter_bot.action.Action;
+import fr.heffebaycay.sts.twitter_bot.action.ActionParam;
 import fr.heffebaycay.sts.twitter_bot.model.*;
+import fr.heffebaycay.sts.twitter_bot.action.impl.TweetAction;
 import fr.heffebaycay.sts.twitter_bot.service.RSSFeedParser;
+import fr.heffebaycay.sts.twitter_bot.trigger.Trigger;
 import fr.heffebaycay.sts.twitter_bot.util.Constants;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

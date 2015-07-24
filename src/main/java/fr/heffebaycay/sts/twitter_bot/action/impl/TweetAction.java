@@ -1,9 +1,9 @@
-package fr.heffebaycay.sts.twitter_bot.model.impl;
+package fr.heffebaycay.sts.twitter_bot.action.impl;
 
 import fr.heffebaycay.sts.twitter_bot.config.Configuration;
 import fr.heffebaycay.sts.twitter_bot.config.Localization;
-import fr.heffebaycay.sts.twitter_bot.model.Action;
-import fr.heffebaycay.sts.twitter_bot.model.ActionParam;
+import fr.heffebaycay.sts.twitter_bot.action.Action;
+import fr.heffebaycay.sts.twitter_bot.action.ActionParam;
 import fr.heffebaycay.sts.twitter_bot.model.FeedMessage;
 import fr.heffebaycay.sts.twitter_bot.util.Constants;
 import org.slf4j.Logger;

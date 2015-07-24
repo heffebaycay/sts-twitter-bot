@@ -1,4 +1,7 @@
-package fr.heffebaycay.sts.twitter_bot.model;
+package fr.heffebaycay.sts.twitter_bot.trigger;
+
+import fr.heffebaycay.sts.twitter_bot.action.Action;
+import fr.heffebaycay.sts.twitter_bot.action.ActionParam;
 
 public abstract class Trigger {
 
