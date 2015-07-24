@@ -15,6 +15,13 @@ public class TwitterBotCLI {
 
     public static void main(String[] args) {
 
+        try {
+            Class.forName("fr.heffebaycay.sts.twitter_bot.config.Configuration");
+        } catch (ClassNotFoundException e) {
+            logger.error("Failed to find Configuration class: {}", e);
+        }
+
+
         if (args.length == 1) {
 
             switch (args[0]) {
