@@ -21,7 +21,7 @@ public class Localization {
     public static Localization INSTANCE;
 
     @ElementMap
-    protected Map<String, String> aliases;
+    public Map<String, String> aliases;
 
     private Localization() {
 
