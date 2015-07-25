@@ -69,6 +69,10 @@
             <string>games/compendia/ti5_english.txt</string>
             <string>Compendia TI5</string>
         </entry>
+        <entry>
+            <string>games/dota2/dotaS2_english.txt</string>
+            <string>Dota 2 Reborn</string>
+        </entry>
 
         <!-- Half-Life -->
         <entry>
