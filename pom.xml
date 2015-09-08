@@ -55,7 +55,13 @@
                             <classpathPrefix>lib/</classpathPrefix>
                             <mainClass>fr.heffebaycay.sts.twitter_bot.ui.TwitterBotCLI</mainClass>
                         </manifest>
+                        <manifestEntries>
+                            <Class-Path>logback.xml</Class-Path>
+                        </manifestEntries>
                     </archive>
+                    <excludes>
+                        <exclude>logback.xml</exclude>
+                    </excludes>
                 </configuration>
             </plugin>
         </plugins>
