@@ -37,7 +37,7 @@ public class RSSTrigger extends Trigger {
         Pattern stsUpdatePattern = Pattern.compile("STS-ALERT \\(([0-9]+) new strings?\\)");
 
         for (FeedMessage feedMessage : feed.getMessages()) {
-
+            logger.debug("Feed message pubdate is {}", feedMessage.getPubDate());
             if (stateFile == null || feedMessage.getPubDate().compareTo( stateFile.getPubDate() ) > 0) {
                 // Feed message is more recent than last state
                 newFeedMessages.add(feedMessage);
@@ -45,7 +45,13 @@ public class RSSTrigger extends Trigger {
             }
         }
 
-        updateStateFile();
+        if (newFeedMessages.size() > 0) {
+            // New messages are available, so we can update the state file
+            updateStateFile();
+        } else {
+            logger.info("No new messages available");
+        }
+
 
         return newFeedMessages.size() > 0 ? true : false;
     }

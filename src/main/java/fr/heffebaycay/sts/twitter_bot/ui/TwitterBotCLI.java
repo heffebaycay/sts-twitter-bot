@@ -33,7 +33,7 @@ public class TwitterBotCLI {
                     TwitterUtil.testTwitter();
                     break;
                 default:
-                    System.out.println("Invalid arguments. Aborting.");
+                    logger.info("Invalid arguments. Aborting");
                     break;
             }
 
