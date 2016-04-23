@@ -73,6 +73,33 @@
             <string>games/dota2/dotaS2_english.txt</string>
             <string>Dota 2 Reborn</string>
         </entry>
+        <entry>
+            <string>games/dota2/valve_english.txt</string>
+            <string>Dota 2 Misc</string>
+        </entry>    
+        <entry>
+            <string>games/dota2_addons/herodemo_english.txt</string>
+            <string>Dota 2 Hero Demo</string>
+        </entry>    
+        <entry>
+            <string>games/dota2_addons/overthrow_english.txt</string>
+            <string>Dota 2 Overthrow</string>
+        </entry>    
+        <entry>
+            <string>games/dota2_addons/basictutorial_english.txt</string>
+            <string>Dota 2 Basic Tutorial</string>
+        </entry>    
+        <entry>
+            <string>games/dota2_addons/conquest_english.txt</string>
+            <string>Dota 2 Conquest</string>
+        </entry>    
+        <entry>
+            <string>games/dota2_addons/conquest2_english.txt</string>
+            <string>Dota 2 Conquest</string> 
+        </entry>    
+        <entry>
+            <string>games/dota2_addons/guidedbot_english.txt</string>
+            <string>Dota 2 Bot Tutorial</string> 
 
         <!-- Half-Life -->
         <entry>
@@ -137,7 +164,25 @@
             <string>games/hl2/mp/hl2mp_english.txt</string>
             <string>HL2 MP</string>
         </entry>
-
+        
+        <!-- Killing Floor 2 -->
+        <entry>
+            <string>games/killingfloor2/KFGame_english.txt</string>
+            <string>KF2 Game</string>
+        </entry>
+        <entry>
+            <string>games/killingfloor2/KFGameContent_english.txt</string>
+            <string>KF2 Game Content</string>
+        </entry>
+        <entry>
+            <string>games/killingfloor2/KFCharacterInfo_english.txt</string>
+            <string>KF2 Character Info</string>
+        </entry>
+        <entry>
+            <string>games/killingfloor2/Achievements_english.txt</string>
+            <string>KF2 Achievements</string>
+        </entry>
+    
         <!-- Left 4 Dead -->
         <entry>
             <string>games/left4dead/chat_english.txt</string>
@@ -321,8 +366,48 @@
         </entry>
         <entry>
             <string>steam/appmgmt_english.txt</string>
-            <string>App Mgt</string>
+            <string>Steamworks</string>
         </entry>
+        
+        <!-- SteamVR -->
+        
+        <entry>
+            <string>steam/vr/robotrepair_english.txt</string>
+            <string>Aperture Robot Repair</string>
+        </entry>
+        <entry>
+            <string>steam/vr/roomsetup_english.txt</string>
+            <string>Room Setup</string>
+        </entry>
+        <entry>
+            <string>steam/vr/secretshop_english.txt</string>
+            <string>Dota Secret Shop</string>
+        </entry>
+        <entry>
+            <string>steam/vr/steamvr_english.txt</string>
+            <string>SteamVR</string>
+        </entry>
+        <entry>
+            <string>steam/vr/tenfoot_english.txt</string>
+            <string>Big Picture (VR)</string>
+        </entry>
+        <entry>
+            <string>steam/vr/tutorial_english.txt</string>
+            <string>VR Tutorial</string>
+        </entry>
+        <entry>
+            <string>steam/vr/vrerrors_english.txt</string>
+            <string>VR Errors</string>
+        </entry>
+        <entry>
+            <string>steam/vr/vrmonitor_english.txt</string>
+            <string>VR Monitor</string>
+        </entry>
+        <entry>
+            <string>steam/vr/vrperftestviewer_english.txt</string>
+            <string>SteamVR Performance Test</string>
+        </entry>
+    
 
         <!-- Mobile app -->
         <entry>
