@@ -412,6 +412,18 @@
             <string>steam/vr/vrperftestviewer_english.txt</string>
             <string>SteamVR Performance Test</string>
         </entry>
+        <entry>
+            <string>steam/vr/the_lab_english.txt</string>
+            <string>The Lab</string>
+        </entry>
+        <entry>
+            <string>steam/vr/slingshot_announcer_english.txt</string>
+            <string>The Lab Slingshot Announcer</string>
+        </entry>
+        <entry>
+            <string>steam/vr/slingshot_cores_english.txt</string>
+            <string>The Lab Slingshot Cores</string>
+        </entry>
     
 
         <!-- Mobile app -->
