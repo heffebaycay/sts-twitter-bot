@@ -35,6 +35,10 @@
             <string>games/csgo/csgo_english.txt</string>
             <string>CS:GO</string>
         </entry>
+        <entry>
+            <string>games/csgo/pages_english.txt</string>
+            <string>CS:GO Web</string>
+        </entry>
 
         <!-- Counter-Strike: Source -->
         <entry>
@@ -423,6 +427,14 @@
         <entry>
             <string>steam/vr/slingshot_cores_english.txt</string>
             <string>The Lab Slingshot Cores</string>
+        </entry>
+        <entry>
+            <string>steam/vr/steamtours_english.txt</string>
+            <string>Destinations</string>
+        </entry>
+        <entry>
+            <string>steam/vr/steamtoursaddons_english.txt</string>
+            <string>Destinations</string>
         </entry>
     
 
