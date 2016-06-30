@@ -447,6 +447,14 @@
             <string>steam/mobile/ios_english.txt</string>
             <string>iOS App</string>
         </entry>
+        <entry>
+            <string>steam/mobile/appstore_english.txt</string>
+            <string>App Store Steam Desc</string>
+        </entry>
+        <entry>
+            <string>steam/mobile/geneticstore_english.txt</string>
+            <string>Windows Store Steam Desc</string>
+        </entry>
 
         <!-- Store stuff -->
         <entry>
