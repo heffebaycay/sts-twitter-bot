@@ -14,14 +14,13 @@ import java.io.*;
 import java.time.LocalDateTime;
 import java.util.Set;
 import java.util.TreeSet;
-import java.util.regex.Pattern;
 
 public class RSSTrigger extends Trigger {
 
-    private static final String STATE_FILE_NAME = "rssTriggerStateFile.ser";
+    private static final String STATE_FILE_NAME = Constants.CONFIG_DIR + File.separator + "rssTriggerStateFile.ser";
     private static final Logger logger = LoggerFactory.getLogger(RSSTrigger.class);
 
-    protected Set<FeedMessage> newFeedMessages = new TreeSet<>();
+    private Set<FeedMessage> newFeedMessages = new TreeSet<>();
 
     public RSSTrigger(Action action) {
         this.action = action;
@@ -33,8 +32,6 @@ public class RSSTrigger extends Trigger {
         StateFile stateFile = fetchStateFile();
 
         logger.info(String.format("State file info: %s", stateFile == null ? "null" : stateFile.getPubDate()));
-
-        Pattern stsUpdatePattern = Pattern.compile("STS-ALERT \\(([0-9]+) new strings?\\)");
 
         for (FeedMessage feedMessage : feed.getMessages()) {
             logger.debug("Feed message pubdate is {}", feedMessage.getPubDate());
@@ -53,17 +50,15 @@ public class RSSTrigger extends Trigger {
         }
 
 
-        return newFeedMessages.size() > 0 ? true : false;
+        return newFeedMessages.size() > 0;
     }
 
     private Feed fetchRSSFeed() {
         RSSFeedParser parser = new RSSFeedParser(Constants.STS_FEED_URL);
-        Feed feed = parser.readFeed();
-        return feed;
+        return parser.readFeed();
     }
 
     private StateFile fetchStateFile() {
-
         File stateFile = new File(STATE_FILE_NAME);
 
         if (!stateFile.isFile()) {
@@ -87,13 +82,9 @@ public class RSSTrigger extends Trigger {
                 throw new RuntimeException(e);
             }
         }
-
-
-
     }
 
     private void updateStateFile() {
-
         StateFile stateFileContent = new StateFile(LocalDateTime.now());
 
         File stateFile = new File(STATE_FILE_NAME);
@@ -110,13 +101,10 @@ public class RSSTrigger extends Trigger {
             logger.error("Failed to create ObjectOutputStream: {}", e);
             throw new RuntimeException(e);
         }
-
     }
 
     @Override
     public ActionParam getActionParam() {
-        TweetAction.TweetActionParam params = new TweetAction.TweetActionParam(newFeedMessages);
-
-        return params;
+        return new TweetAction.TweetActionParam(newFeedMessages);
     }
 }

@@ -8,13 +8,25 @@ changes from the Steam Translation Server.
 In order to setup the application, please follow these instructions:
 
 1. Copy the application 'jar' file and the 'lib' directory in a directory
-2. Create a file called *config.xml* next to the application jar file (see the *Configuration*
- section for more information about the content of this file)
+2. Create a file called *config.xml* in the directory where the application should write its configuration (see the *Configuration*
+ section for more information about the content of this file).
+   When running the application, you must pass the path to this directory in a system property called 'sts.twitter.config.dir'.
 3. Run the application with the *twitter:authenticate* command line parameter to setup
 your Twitter account with the application.
+    ```shell
+    java -jar twitter-bot-1.0.4.jar -Dsts.twitter.config.dir=/home/sts/config twitter:authenticate
+    ```
+
 4. (Optionally) Run the application with the *twitter:test* command line parameter to
   check that the application can interact with your Twitter account.
+    ```shell
+    java -jar twitter-bot-1.0.4.jar -Dsts.twitter.config.dir=/home/sts/config twitter:test
+    ```
+
 5. You're done! Now you can run the application to check for new updates on STS.
+    ```shell
+    java -jar twitter-bot-1.0.4.jar -Dsts.twitter.config.dir=/home/sts/config
+    ```
 
 
 ## Configuration
