@@ -7,6 +7,8 @@ public interface Constants {
 
     String STS_FEED_URL = "https://steamcommunity.com/groups/STSLounge/rss";
 
+    String CONFIG_DIR = System.getProperty("sts.twitter.config.dir");
+
     String CONFIG_FILE = "config.xml";
     String LOCALIZATION_FILE = "localization.xml";
 
