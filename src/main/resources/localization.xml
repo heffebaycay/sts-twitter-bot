@@ -440,7 +440,14 @@
             <string>steam/vr/steamtoursaddons_english.txt</string>
             <string>Destinations</string>
         </entry>
-    
+        <entry>
+             <string>steam/vr/outro_english.txt</string>
+             <string>VR Demo Outro</string>
+        </entry>
+        <entry>
+             <string>steam/vr/DemoLoader_english.txt</string>
+             <string>VR Demo Loader</string>
+        </entry>
 
         <!-- Mobile app -->
         <entry>
