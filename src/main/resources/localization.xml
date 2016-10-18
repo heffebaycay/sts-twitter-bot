@@ -39,6 +39,10 @@
             <string>games/csgo/pages_english.txt</string>
             <string>CS:GO Web</string>
         </entry>
+        <entry>
+            <string>games/csgo/csgoweb_english.txt</string>
+            <string>CS:GO Web</string>
+        </entry>
 
         <!-- Counter-Strike: Source -->
         <entry>
