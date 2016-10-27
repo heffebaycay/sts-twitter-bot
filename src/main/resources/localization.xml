@@ -382,6 +382,10 @@
             <string>Steam Controller Help</string>
         </entry>
         <entry>
+            <string>steam/steamhardwarehelp_english.txt</string>
+            <string>Steam Hardware Help</string>
+        </entry>
+        <entry>
             <string>steam/tenfoot_english.txt</string>
             <string>Big Picture</string>
         </entry>
@@ -455,6 +459,10 @@
         <entry>
              <string>steam/vr/DemoLoader_english.txt</string>
              <string>VR Demo Loader</string>
+        </entry>
+        <entry>
+             <string>steam/steamvrhelp_english.txt</string>
+             <string>SteamVR Help</string>
         </entry>
 
         <!-- Mobile app -->
