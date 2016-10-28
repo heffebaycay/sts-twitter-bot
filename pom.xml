@@ -15,7 +15,13 @@
         <simple-xml.version>2.7.1</simple-xml.version>
         <assert-j.version>3.4.1</assert-j.version>
         <testng.version>6.9.10</testng.version>
+        <maven-release-plugin.version>2.5.3</maven-release-plugin.version>
+        <maven-jar-plugin.version>3.0.2</maven-jar-plugin.version>
     </properties>
+
+    <scm>
+        <developerConnection>scm:git:git@github.com:heffebaycay/sts-twitter-bot.git</developerConnection>
+    </scm>
 
     <build>
         <plugins>
@@ -50,6 +56,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
+                <version>${maven-jar-plugin.version}</version>
                 <configuration>
                     <archive>
                         <manifest>
@@ -61,6 +68,14 @@
                     <excludes>
                         <exclude>logback.xml</exclude>
                     </excludes>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>${maven-release-plugin.version}</version>
+                <configuration>
+                    <tagNameFormat>@{project.version}</tagNameFormat>
                 </configuration>
             </plugin>
         </plugins>
