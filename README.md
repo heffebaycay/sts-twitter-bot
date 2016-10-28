@@ -52,6 +52,17 @@ updates are posted.
 in your Twitter application settings, over at https://apps.twitter.com/
 - dryRun : No tweets will be posted, even if new changes from STS are detected.
 
+## Release
+
+To release a new version of this project, simply run the following maven command:
+
+```
+mvn release:prepare release:perform
+```
+
+This will change the project version, commit the changes, tag the release
+and set the version to the next SNAPSHOT version.
+
 ## License
 
 This project is released under the MIT License and uses work from the following projects:
