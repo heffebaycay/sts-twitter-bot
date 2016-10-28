@@ -29,7 +29,7 @@
         </entry>
         <entry>
             <string>games/csgo/sfui_english.txt</string>
-            <string>CS:GO</string>
+            <string>CS:GO SFUI</string>
         </entry>
         <entry>
             <string>games/csgo/csgo_english.txt</string>
@@ -37,11 +37,15 @@
         </entry>
         <entry>
             <string>games/csgo/pages_english.txt</string>
-            <string>CS:GO Web</string>
+            <string>CS:GO Web Resources</string>
         </entry>
         <entry>
             <string>games/csgo/csgoweb_english.txt</string>
             <string>CS:GO Web</string>
+        </entry>
+        <entry>
+            <string>games/csgo/releasenotes_english.txt</string>
+            <string>CS:GO Release Notes</string>
         </entry>
 
         <!-- Counter-Strike: Source -->
@@ -378,6 +382,10 @@
             <string>Steam Controller Help</string>
         </entry>
         <entry>
+            <string>steam/steamhardwarehelp_english.txt</string>
+            <string>Steam Hardware Help</string>
+        </entry>
+        <entry>
             <string>steam/tenfoot_english.txt</string>
             <string>Big Picture</string>
         </entry>
@@ -451,6 +459,10 @@
         <entry>
              <string>steam/vr/DemoLoader_english.txt</string>
              <string>VR Demo Loader</string>
+        </entry>
+        <entry>
+             <string>steam/steamvrhelp_english.txt</string>
+             <string>SteamVR Help</string>
         </entry>
 
         <!-- Mobile app -->
