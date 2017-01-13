@@ -178,6 +178,40 @@
             <string>HL2 MP</string>
         </entry>
         
+       <!-- Hardware -->        
+        <entry>
+            <string>steam/steamlink_english.txt</string>
+            <string>Steam Link</string>
+        </entry>
+        <entry>
+            <string>steam/steamhardwarehelp_english.txt</string>
+            <string>Steam Hardware Help</string>
+        </entry>
+        <entry>
+            <string>steam/steamlinkhelp_english.txt</string>
+            <string>Steam Link Help</string>
+        </entry>
+        <entry>
+            <string>steam/steamcontrollerhelp_english.txt</string>
+            <string>Steam Controller Help</string>
+        </entry>
+        <entry>
+            <string>steam/hardware/xbox_one_english.txt</string>
+            <string>Xbox One Controller</string>
+        </entry>
+        <entry>
+            <string>steam/hardware/dualshock_4_english.txt</string>
+            <string>Dualshock 4 Controller</string>
+        </entry>
+        <entry>
+            <string>steam/hardware/steam_controller_english.txt</string>
+            <string>Steam Controller</string>
+        </entry>
+        <entry>
+            <string>steam/hardware/xbox_360_english.txt</string>
+            <string>Xbox 360 Controller</string>
+        </entry>
+        
         <!-- Killing Floor 2 -->
         <entry>
             <string>games/killingfloor2/KFGame_english.txt</string>
@@ -368,22 +402,6 @@
         <entry>
             <string>steam/recovery_english.txt</string>
             <string>Steam Recovery</string>
-        </entry>
-        <entry>
-            <string>steam/steamlink_english.txt</string>
-            <string>Steam Link</string>
-        </entry>
-        <entry>
-            <string>steam/steamlinkhelp_english.txt</string>
-            <string>Steam Link Help</string>
-        </entry>
-        <entry>
-            <string>steam/steamcontrollerhelp_english.txt</string>
-            <string>Steam Controller Help</string>
-        </entry>
-        <entry>
-            <string>steam/steamhardwarehelp_english.txt</string>
-            <string>Steam Hardware Help</string>
         </entry>
         <entry>
             <string>steam/tenfoot_english.txt</string>
