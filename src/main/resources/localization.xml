@@ -113,6 +113,10 @@
             <string>games/dota2_addons/guidedbot_english.txt</string>
             <string>Dota 2 Bot Tutorial</string>
         </entry>
+        <entry>
+            <string>games/dota2_addons/darkmoon_english.txt</string>
+            <string>Dota 2 Dark Moon</string>
+        </entry>
 
         <!-- Half-Life -->
         <entry>
