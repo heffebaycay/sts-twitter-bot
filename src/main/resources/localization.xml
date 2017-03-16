@@ -372,6 +372,10 @@
             <string>ServerBrowser</string>
         </entry>
         <entry>
+            <string>steam/setup_english.txt</string>
+            <string>Steam Setup</string>
+        </entry>
+        <entry>
             <string>steam/steamui_english.txt</string>
             <string>Steam UI</string>
         </entry>
