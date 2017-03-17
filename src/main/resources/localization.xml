@@ -113,6 +113,10 @@
             <string>games/dota2_addons/guidedbot_english.txt</string>
             <string>Dota 2 Bot Tutorial</string>
         </entry>
+        <entry>
+            <string>games/dota2_addons/darkmoon_english.txt</string>
+            <string>Dota 2 Dark Moon</string>
+        </entry>
 
         <!-- Half-Life -->
         <entry>
@@ -366,6 +370,10 @@
         <entry>
             <string>steam/serverbrowser_english.txt</string>
             <string>ServerBrowser</string>
+        </entry>
+        <entry>
+            <string>steam/setup_english.txt</string>
+            <string>Steam Setup</string>
         </entry>
         <entry>
             <string>steam/steamui_english.txt</string>
