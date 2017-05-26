@@ -518,6 +518,10 @@
             <string>steam/store/storefront_english_main.txt</string>
             <string>Store Main</string>
         </entry>
+        <entry>
+            <string>steam/store/storestats_english.txt</string>
+            <string>Store Stats</string>
+        </entry>
 
         <!-- Uber -->
         <entry>
